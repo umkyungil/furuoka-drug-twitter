@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/umkyungil/furuoka-drug-twitter/static/css/main.55bfdf87.chunk.css",
+    "main.js": "/umkyungil/furuoka-drug-twitter/static/js/main.e33f606e.chunk.js",
+    "main.js.map": "/umkyungil/furuoka-drug-twitter/static/js/main.e33f606e.chunk.js.map",
+    "runtime-main.js": "/umkyungil/furuoka-drug-twitter/static/js/runtime-main.04ef7c14.js",
+    "runtime-main.js.map": "/umkyungil/furuoka-drug-twitter/static/js/runtime-main.04ef7c14.js.map",
+    "static/js/2.e82037cd.chunk.js": "/umkyungil/furuoka-drug-twitter/static/js/2.e82037cd.chunk.js",
+    "static/js/2.e82037cd.chunk.js.map": "/umkyungil/furuoka-drug-twitter/static/js/2.e82037cd.chunk.js.map",
+    "index.html": "/umkyungil/furuoka-drug-twitter/index.html",
+    "precache-manifest.1590167e90074272e960b78b6bd3d393.js": "/umkyungil/furuoka-drug-twitter/precache-manifest.1590167e90074272e960b78b6bd3d393.js",
+    "service-worker.js": "/umkyungil/furuoka-drug-twitter/service-worker.js",
+    "static/css/main.55bfdf87.chunk.css.map": "/umkyungil/furuoka-drug-twitter/static/css/main.55bfdf87.chunk.css.map",
+    "static/js/2.e82037cd.chunk.js.LICENSE.txt": "/umkyungil/furuoka-drug-twitter/static/js/2.e82037cd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.04ef7c14.js",
+    "static/js/2.e82037cd.chunk.js",
+    "static/css/main.55bfdf87.chunk.css",
+    "static/js/main.e33f606e.chunk.js"
+  ]
+}
