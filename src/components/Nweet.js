@@ -27,20 +27,32 @@ const Nweet = ({ nweetObj, isOwner }) => {
     } = event;
     setNewNweet(value);
   };
+  const onDownload = () => {
+    try {
+      var xhr = new XMLHttpRequest();
+      xhr.responseType = 'blob';
+      xhr.onload = function() {
+        var a = document.createElement('a');
+        a.href = window.URL.createObjectURL(xhr.response); // xhr.response is a blob
+        a.download = "image"; // Set the file name.
+        a.style.display = 'none';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+      };
+      xhr.open('GET', nweetObj.attachmentUrl);
+      xhr.send();
+    }catch(error) {
+      console.log(error);
+    }
+  }
+
   return (
     <div className="nweet">
       {editing ? (
         <>
           <form onSubmit={onSubmit} className="container nweetEdit">
-            <input
-              type="text"
-              placeholder="Edit your nweet"
-              value={newNweet}
-              required
-              autoFocus
-              onChange={onChange}
-              className="formInput"
-            />
+            <input type="text" placeholder="Edit your nweet" value={newNweet} required autoFocus onChange={onChange} className="formInput" />
             <input type="submit" value="Update Message" className="formBtn" />
           </form>
           <span onClick={toggleEditing} className="formBtn cancelBtn">
@@ -50,7 +62,8 @@ const Nweet = ({ nweetObj, isOwner }) => {
       ) : (
         <>
           <h4>{nweetObj.text}</h4>
-          {nweetObj.attachmentUrl && <img src={nweetObj.attachmentUrl} />}
+          {nweetObj.attachmentUrl && <img src={nweetObj.attachmentUrl} onClick={onDownload} alt="fileDownload"/>}
+          
           {isOwner && (
             <div class="nweet__actions">
               <span onClick={onDeleteClick}>
