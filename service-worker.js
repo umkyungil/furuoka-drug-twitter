@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/furuokadrug-twitter/precache-manifest.d09ce484ac3baa07942fe82a7b64ef95.js"
+  "/furuokadrug-twitter/precache-manifest.b43e440c6cd5b568d971fbc7b77f49e0.js"
 );
 
 self.addEventListener('message', (event) => {

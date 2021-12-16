@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4cca753fe3544b11c24da05940b60bf4",
+    "revision": "16cf72798d06d633e637404764e7542f",
     "url": "/furuokadrug-twitter/index.html"
   },
   {
