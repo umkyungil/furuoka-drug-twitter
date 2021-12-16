@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/furuoka-drug-twitter/static/css/main.5e39829a.chunk.css",
-    "main.js": "/furuoka-drug-twitter/static/js/main.2508441b.chunk.js",
-    "main.js.map": "/furuoka-drug-twitter/static/js/main.2508441b.chunk.js.map",
-    "runtime-main.js": "/furuoka-drug-twitter/static/js/runtime-main.14cc34c3.js",
-    "runtime-main.js.map": "/furuoka-drug-twitter/static/js/runtime-main.14cc34c3.js.map",
-    "static/js/2.05b2de2e.chunk.js": "/furuoka-drug-twitter/static/js/2.05b2de2e.chunk.js",
-    "static/js/2.05b2de2e.chunk.js.map": "/furuoka-drug-twitter/static/js/2.05b2de2e.chunk.js.map",
-    "index.html": "/furuoka-drug-twitter/index.html",
-    "precache-manifest.9e9920af5fe6835dfd6538bef7069b04.js": "/furuoka-drug-twitter/precache-manifest.9e9920af5fe6835dfd6538bef7069b04.js",
-    "service-worker.js": "/furuoka-drug-twitter/service-worker.js",
-    "static/css/main.5e39829a.chunk.css.map": "/furuoka-drug-twitter/static/css/main.5e39829a.chunk.css.map",
-    "static/js/2.05b2de2e.chunk.js.LICENSE.txt": "/furuoka-drug-twitter/static/js/2.05b2de2e.chunk.js.LICENSE.txt"
+    "main.css": "/furuokadrug-twitter/static/css/main.5e39829a.chunk.css",
+    "main.js": "/furuokadrug-twitter/static/js/main.77afd376.chunk.js",
+    "main.js.map": "/furuokadrug-twitter/static/js/main.77afd376.chunk.js.map",
+    "runtime-main.js": "/furuokadrug-twitter/static/js/runtime-main.dc170d70.js",
+    "runtime-main.js.map": "/furuokadrug-twitter/static/js/runtime-main.dc170d70.js.map",
+    "static/js/2.82721bd9.chunk.js": "/furuokadrug-twitter/static/js/2.82721bd9.chunk.js",
+    "static/js/2.82721bd9.chunk.js.map": "/furuokadrug-twitter/static/js/2.82721bd9.chunk.js.map",
+    "index.html": "/furuokadrug-twitter/index.html",
+    "precache-manifest.d09ce484ac3baa07942fe82a7b64ef95.js": "/furuokadrug-twitter/precache-manifest.d09ce484ac3baa07942fe82a7b64ef95.js",
+    "service-worker.js": "/furuokadrug-twitter/service-worker.js",
+    "static/css/main.5e39829a.chunk.css.map": "/furuokadrug-twitter/static/css/main.5e39829a.chunk.css.map",
+    "static/js/2.82721bd9.chunk.js.LICENSE.txt": "/furuokadrug-twitter/static/js/2.82721bd9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.14cc34c3.js",
-    "static/js/2.05b2de2e.chunk.js",
+    "static/js/runtime-main.dc170d70.js",
+    "static/js/2.82721bd9.chunk.js",
     "static/css/main.5e39829a.chunk.css",
-    "static/js/main.2508441b.chunk.js"
+    "static/js/main.77afd376.chunk.js"
   ]
 }
